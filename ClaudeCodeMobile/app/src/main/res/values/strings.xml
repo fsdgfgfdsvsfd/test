@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Claude Code Mobile</string>
+    <string name="setup_title">Configuración Inicial</string>
+    <string name="api_url_label">URL de Ollama Cloud</string>
+    <string name="api_url_hint">ej: https://api.ollama.cloud</string>
+    <string name="api_key_label">API Key</string>
+    <string name="api_key_hint">Tu clave de API</string>
+    <string name="select_model">Seleccionar Modelo</string>
+    <string name="load_models">Cargar Modelos</string>
+    <string name="select_folder">Seleccionar Carpeta de Trabajo</string>
+    <string name="start_chat">Comenzar a Programar</string>
+    <string name="chat_title">Claude Code</string>
+    <string name="send">Enviar</string>
+    <string name="loading">Cargando...</string>
+    <string name="error">Error</string>
+    <string name="success">Éxito</string>
+    <string name="folder_selected">Carpeta seleccionada</string>
+    <string name="model_selected">Modelo seleccionado</string>
+    <string name="type_message">Escribe tu mensaje...</string>
+    <string name="clear_history">Limpiar Historial</string>
+    <string name="settings">Configuración</string>
+</resources>
