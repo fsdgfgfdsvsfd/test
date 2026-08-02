@@ -1,0 +1,53 @@
+```
+# Build artifacts
+build/
+dist/
+
+# Gradle
+.gradle/
+*.gradle
+!gradle/wrapper/gradle-wrapper.properties
+
+# APK and other Android build outputs
+*.apk
+*.aar
+*.dex
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (if any Python scripts exist in the project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Coverage reports
+coverage/
+*.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*~
+```
