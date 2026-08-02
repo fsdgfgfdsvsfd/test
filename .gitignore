@@ -1,17 +1,18 @@
 ```
-# Build artifacts
+# Build and intermediate files
 build/
-dist/
+.intermediates/
+.externalNativeBuild/
 
 # Gradle
 .gradle/
-*.gradle
-!gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/
 
-# APK and other Android build outputs
+# APK and other build outputs
 *.apk
 *.aar
-*.dex
+*.ap_
+app/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -19,35 +20,32 @@ local.properties
 # Log Files
 *.log
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Android Studio Navigation editor temp files
+.navigation/
 
-# Environment variables
+# Android Studio captures folder
+captures/
+
+# IntelliJ IDEA artifacts
+.idea/
+*.iml
+*.iws
+out/
+
+# Generated files
+gen/
+generated/
+
+# Keystore
+*.keystore
+*.jks
+
+# Environment specific
 .env
 .env.local
 *.env.*
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Python (if any Python scripts exist in the project)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Coverage reports
-coverage/
-*.coverage
-htmlcov/
-
-# Temporary files
-*.tmp
-*~
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
